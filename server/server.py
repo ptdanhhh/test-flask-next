@@ -7,7 +7,7 @@ import cred #credential file DO NOT push
 
 #app instance
 app = Flask(__name__)
-app.secret_key = 'superrsecret keyyyyy'
+app.secret_key = cred.secretkey
 CORS(app) #Cors policy so FE can fetch API 
 
 #DB connector
