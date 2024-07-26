@@ -38,5 +38,5 @@ next-env.d.ts
 # for backend
 env
 cred.py
-
+__pycache__
 
